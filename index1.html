@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Your Hospital</title>
+    <style>
+        /* Reset some default browser styles */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set a background color and font for the entire page */
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Style the header section */
+        header {
+            background-color: #007acc;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Style the navigation menu */
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #007acc;
+            font-weight: bold;
+        }
+
+        /* Style the content sections */
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #007acc;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Style the images in the doctor section */
+        section#doctors img {
+            max-width: 100px;
+            border: 1px solid #ddd;
+            border-radius: 50%;
+        }
+
+        /* Media query for responsive design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 24px;
+            }
+            nav li {
+                margin-right: 10px;
+            }
+            section {
+                margin: 10px;
+            }
+            section#doctors img {
+                max-width: 75px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Hospital</h1>
+        <p>Your Health, Our Priority</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#doctors">Doctors</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Your Hospital is a leading healthcare provider dedicated to serving the community for over 50 years. We are committed to delivering high-quality medical care and exceptional patient experiences.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Cardiology</li>
+            <li>Pediatrics</li>
+            <li>Surgery</li>
+            <!-- Add more services -->
+        </ul>
+    </section>
+    <section id="doctors">
+        <h2>Our Doctors</h2>
+        <ul>
+            <li>
+                
+                <h3>Dr. John Doe</h3>
+                <p>Cardiologist</p>
+            </li>
+            <li>
+               
+                <h3>Dr. Jane Smith</h3>
+                <p>Pediatrician</p>
+            </li>
+            <!-- Add more doctor profiles -->
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please don't hesitate to contact us:</p>
+        <address>
+            Your Hospital<br>
+            123 Main Street<br>
+            City, State 12345<br>
+            Phone: (555) 555-5555<br>
+            Email: info@yourhospital.com
+        </address>
+    </section>
+    <footer>
+        <p>&copy; 2023 Your Hospital. All rights reserved.</p>
+    </footer>
+</body>
+</html>
